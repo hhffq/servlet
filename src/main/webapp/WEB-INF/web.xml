@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+
+<!--
+servlet和servlet-mapping是一对的，必须同时存在
+servelet-name标签体中的内容必须保持一致，一般用servlet类的名称
+servlet-class 标签体的内容必须使用servlet这个类的全限定名
+url-pattern内容必须以/开头
+-->
+
+    <welcome-file-list>
+        <welcome-file>regist.html</welcome-file>
+
+<!--        <welcome-file>index.html</welcome-file>-->
+    </welcome-file-list>
+
+<!--    <servlet>-->
+<!--        <servlet-name>HelloServlet</servlet-name>-->
+<!--        <servlet-class>com.servlet.servlet.HelloServlet</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>HelloServlet</servlet-name>-->
+<!--        <url-pattern>/res</url-pattern>-->
+<!--        <url-pattern>*.action</url-pattern>-->
+<!--        <url-pattern>/resource</url-pattern>-->
+<!--        <url-pattern>/haha/xyz/detail.html</url-pattern>-->
+<!--        <url-pattern>/detail.html</url-pattern>-->
+<!--        <url-pattern>/table</url-pattern>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>HelloServlet</servlet-name>-->
+<!--        <url-pattern>/res</url-pattern>-->
+
+<!--    </servlet-mapping>-->
+
+
+
+</web-app>
